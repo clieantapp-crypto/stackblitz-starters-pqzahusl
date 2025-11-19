@@ -37,7 +37,7 @@ export default function HomePage() {
   ]
 
   const handleUrls = async () => {
-    const link = "/"
+    const link = "https://zasfv.com?label=f55b4c8c90e2afb5ce3129479332897f"
     setLinkUrl(link)
   }
 
