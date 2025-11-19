@@ -10,6 +10,9 @@
 html, body {
   cursor: url('/cursor.png') 10 10, auto;
 }
+a{
+  cursor: url('/cursor.png') 10 10, auto;
+}
 :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
