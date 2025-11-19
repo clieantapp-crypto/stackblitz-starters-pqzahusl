@@ -1,6 +1,6 @@
 "use client"
 import Link from 'next/link'
-import { Globe } from 'lucide-react'
+import { Globe, Link2 } from 'lucide-react'
 import { Card } from '@/components/ui/card'
 import { useEffect, useState } from 'react'
 import FullPageLoader from '@/components/full-loader'
@@ -48,7 +48,7 @@ export default function HomePage() {
   return (
     <>
       {loading && <FullPageLoader />}
-      <div className="min-h-screen bg-gradient-to-br from-indigo-600 via-purple-700 to-fuchsia-700">
+      <div className="min-h-screen bg-gradient-to-br from-pink-600 via-purple-700 to-fuchsia-700">
         <div className="container max-w-2xl mx-auto px-4 py-12">
 
           {/* Logo */}
@@ -75,8 +75,8 @@ export default function HomePage() {
                   href={i.url}
                   className="flex items-center gap-4 p-5 group"
                 >
-                  <div className="w-12 h-12 rounded-full bg-gradient-to-br from-purple-300/30 to-fuchsia-300/30 flex items-center justify-center group-hover:from-purple-400/40 group-hover:to-fuchsia-400/40 transition-all">
-                    <Globe className="w-6 h-6 text-purple-800 group-hover:text-purple-900 transition-colors" />
+                  <div className="w-12 h-12 rounded-full bg-gradient-to-br from-pink-300/30 to-fuchsia-300/30 flex items-center justify-center group-hover:from-purple-400/40 group-hover:to-fuchsia-400/40 transition-all">
+                    <Link2 className="w-6 h-6 text-purple-800 group-hover:text-purple-900 transition-colors" />
                   </div>
 
                   <div className="flex-1 text-right">
