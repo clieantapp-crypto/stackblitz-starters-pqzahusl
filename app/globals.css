@@ -8,10 +8,10 @@
   font-family: "Almarai", sans-serif;
 }
 html, body {
-  cursor: url('/cursor.png') 10 10, auto;
+  cursor: url('/popo.png') 10 10, auto;
 }
 a{
-  cursor: url('/cursor.png') 10 10, auto;
+  cursor: url('/popo.png') 10 10, auto;
 }
 :root {
   --foreground-rgb: 0, 0, 0;
