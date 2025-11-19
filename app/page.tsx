@@ -55,7 +55,7 @@ export default function HomePage() {
           <div className="flex flex-col items-center text-center mb-10">
             <div className="w-32 h-32 mb-6 rounded-full bg-white/70 backdrop-blur-md flex items-center justify-center shadow-2xl border border-white/40">
               <div className="w-20 h-20">
-                <img src="/quality.png" alt="logo" />
+                <img src="/verified (2).png" alt="logo" />
               </div>
             </div>
 
