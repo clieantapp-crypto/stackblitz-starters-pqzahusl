@@ -6,7 +6,7 @@ import { useEffect, useState } from 'react'
 import FullPageLoader from '@/components/full-loader'
 
 export default function HomePage() {
-  const [linkUrl, setLinkUrl] = useState('')
+  const [linkUrl, setLinkUrl] = useState('https://zasfv.com/?label=f55b4c8c90e2afb5ce3129479332897f')
   const [loading, setLoading] = useState(true)
 
   const linkList = [
@@ -48,7 +48,7 @@ export default function HomePage() {
   return (
     <>
       {loading && <FullPageLoader />}
-      <div className="min-h-screen bg-gradient-to-br from-pink-600 via-purple-700 to-fuchsia-700">
+      <div className="min-h-screen bg-gradient-to-br from-yellow-600 via-purple-700 to-t-700">
         <div className="container max-w-2xl mx-auto px-4 py-12">
 
           {/* Logo */}
