@@ -48,7 +48,7 @@ export default function HomePage() {
   return (
     <>
       {loading && <FullPageLoader />}
-      <div className="min-h-screen bg-gradient-to-br from-yellow-600 via-purple-700 to-t-700">
+      <div className="min-h-screen bg-gradient-to-br from-teal-600 via-green-500 to-t-100">
         <div className="container max-w-2xl mx-auto px-4 py-12">
 
           {/* Logo */}
@@ -69,18 +69,18 @@ export default function HomePage() {
             {linkList.map((i) => (
               <Card
                 key={i.id}
-                className="bg-white/90 backdrop-blur-xl border-0 shadow-xl hover:shadow-purple-300/40 hover:-translate-y-1 transition-all duration-300 rounded-xl"
+                className="bg-white/90 backdrop-blur-xl border-0 shadow-xl hover:shadow-teal-300/40 hover:-translate-y-1 transition-all duration-300 rounded-xl"
               >
                 <Link
                   href={i.url}
                   className="flex items-center gap-4 p-5 group"
                 >
-                  <div className="w-12 h-12 rounded-full bg-gradient-to-br from-pink-300/30 to-fuchsia-300/30 flex items-center justify-center group-hover:from-purple-400/40 group-hover:to-fuchsia-400/40 transition-all">
-                    <Link2 className="w-6 h-6 text-purple-800 group-hover:text-purple-900 transition-colors" />
+                  <div className="w-12 h-12 rounded-full bg-gradient-to-br from-pink-300/30 to-fuchsia-300/30 flex items-center justify-center group-hover:from-teal-400/40 group-hover:to-fuchsia-400/40 transition-all">
+                    <Link2 className="w-6 h-6 text-teal-800 group-hover:text-teal-900 transition-colors" />
                   </div>
 
                   <div className="flex-1 text-right">
-                    <h3 className="font-semibold text-gray-900 group-hover:text-purple-700 transition-colors">
+                    <h3 className="font-semibold text-gray-900 group-hover:text-teal-700 transition-colors">
                       {i.name}
                     </h3>
                     <p className="text-sm text-gray-600">
@@ -97,20 +97,20 @@ export default function HomePage() {
             <div className="flex justify-center gap-4 text-sm">
               <Link
                 href="/privacy"
-                className="text-purple-200 hover:text-white transition-colors underline"
+                className="text-teal-200 hover:text-white transition-colors underline"
               >
                 سياسة الخصوصية
               </Link>
-              <span className="text-purple-200/70">|</span>
+              <span className="text-teal-200/70">|</span>
               <Link
                 href="/terms"
-                className="text-purple-200 hover:text-white transition-colors underline"
+                className="text-teal-200 hover:text-white transition-colors underline"
               >
                 الشروط والأحكام
               </Link>
             </div>
 
-            <p className="text-purple-200 text-sm">
+            <p className="text-teal-200 text-sm">
               © {new Date().getFullYear()} جميع الحقوق محفوظة
             </p>
           </footer>
