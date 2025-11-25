@@ -4,7 +4,7 @@ import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: ' الخدمات وآخر العروض الحصرية',
-  description: 'اكتشف    الخدمات وآخر العروض عبر روابطنا ',
+  description: 'اكتشف الخدمات وآخر العروض عبر روابطنا ',
 
 };
 
