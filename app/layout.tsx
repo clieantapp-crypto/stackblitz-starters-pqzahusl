@@ -19,7 +19,7 @@ export default function RootLayout({
         {/* Google Tag Manager */}
         <Script
           async
-          src="https://www.googletagmanager.com/gtag/js?id=G-XXX"
+          src="https://www.googletagmanager.com/gtag/js?id=AW-17690894312"
         />
 
         <Script id="gtag-init">
@@ -27,7 +27,7 @@ export default function RootLayout({
             window.dataLayer = window.dataLayer || [];
             function gtag(){dataLayer.push(arguments);}
             gtag('js', new Date());
-            gtag('config', 'G-XXX');
+            gtag('config', 'AW-17690894312');
           `}
         </Script>
         <meta name="google-site-verification" content="KVzo3FWGzAnmTPXPR4BzmwZUO2uPLY2aHNwmdVn91yc" />
